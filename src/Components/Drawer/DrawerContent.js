@@ -141,7 +141,7 @@ export default function DrawerContent(props) {
               <>
                 <DrawerItem
 
-                  label="Company"
+                  label="Company Data"
                   onPress={() => {props.navigation.navigate("All Company") }}
                 />
 

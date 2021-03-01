@@ -27,7 +27,7 @@ function Company({ navigation }) {
   return (
     <>
       < View style={{ flex: 1 }}>
-        <ScrollView>
+       
 
           <View style={{ flex: 0, flexDirection: 'row', backgroundColor: '#F9277A' }}>
             <View style={{ flex: 1, color: 'white' }}>
@@ -44,8 +44,9 @@ function Company({ navigation }) {
             </View>
 
           </View>
+         
           <ImageBackground source={{ uri: 'https://media.glassdoor.com/l/a3/59/8b/93/the-front-side-of-the-spiegel-building.jpg' }} style={{ width: '100%', height: 650 }}>
-
+          <ScrollView>
 
 
 
@@ -60,12 +61,15 @@ function Company({ navigation }) {
 
 
             <View style={{ backgroundColor: 'white' }}>
+             
+
               <View style={{ justifyContent: 'center', alignContent: 'center', alignItems: 'center', marginTop: 20 }}>
                 <Text style={{ fontSize: 30, color: 'blue', fontWeight: 'bold', textAlign: 'center' }}>
                   Companies Data
                     </Text>
 
               </View>
+
 
               {data.map((v, i) => {
                 return (<View style={{ marginLeft: 10, marginRight: 10 }} key={i}>
@@ -106,33 +110,24 @@ function Company({ navigation }) {
                           null
                         }
 
-                        <View>
-                          <Text>    </Text>
-                        </View>
-                        <View>
-                          <Text>    </Text>
-                        </View>
+<View style={{ display: 'flex', flexDirection: 'row' }}>
+                    <TouchableOpacity style={styles.Tchable} >
+                      <Text style={{ color: 'white', fontSize: 15 }}>Call</Text>
+                    </TouchableOpacity>
 
+                    <TouchableOpacity style={styles.Tchable} >
+                      <Text style={{ color: 'white', fontSize: 15 }}>Sms</Text>
+                    </TouchableOpacity>
+
+                    
+                  </View>
+
+                      
 
                       </View>
 
 
 
-
-
-
-                      {/* <View style={{display:'flex',flexDirection:'row'}}>
-                     
-
-              <TouchableOpacity style={styles.Tchable} >
-                  <Text style={{ color: 'white', fontSize: 15 }}>Sms</Text>
-              </TouchableOpacity>
-
-              <TouchableOpacity style={styles.Tchable} >
-                  <Text style={{ color: 'white', fontSize: 15 }}>Delete</Text>
-              </TouchableOpacity>
-              </View>
-              */}
                       <Text >
                       </Text>
 
@@ -146,17 +141,29 @@ function Company({ navigation }) {
               })}
             </View>
 
+           
 
-
-
-
-
-
+            <View>
+            <Text></Text>
+          </View>
+          <View>
+            <Text></Text>
+          </View>
+          <View>
+            <Text></Text>
+          </View>
+          <View>
+            <Text></Text>
+          </View>
+          
+          </ScrollView>
           </ImageBackground>
+         
+         
 
 
 
-        </ScrollView>
+      
       </ View>
     </>
   )

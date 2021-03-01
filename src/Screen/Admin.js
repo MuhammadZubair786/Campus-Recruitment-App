@@ -113,7 +113,7 @@ const Admin = ({ navigation }) => {
   return (
     <>
       <View style={styles.Main}>
-        <ImageBackground style={styles.bgimg} source={{ uri: "https://lh3.googleusercontent.com/proxy/3flZq7kX1DkTO2ajywstS1os-DvN38wlgHh2sgDYv-yxFSHspQgwxfob5EDNsvpVezcyR59E1cRndQ76a-Pp2VfIcmc8QbrKmHt9qDTFFNpdr5ToSZGWnmNozPSE8OAo3j4jtUOZjcDlua16" }}>
+        <ImageBackground style={styles.bgimg} source={{ uri: "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dW5pdmVyc2l0eSUyMGNhbXB1c3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" }}>
           <View style={styles.Head}>
             <Text style={styles.Heading}>Welcome To The Campus </Text>
           </View>
