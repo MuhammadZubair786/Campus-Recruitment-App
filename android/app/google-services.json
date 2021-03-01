@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173335347540",
+    "project_id": "hackthon-app-723ac",
+    "storage_bucket": "hackthon-app-723ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173335347540:android:9c7f2fd73223d21eabc8c1",
+        "android_client_info": {
+          "package_name": "com.campus_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173335347540-9o0tt2locr2d7pup17jrbdmp3duqdi5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvkHKNq_TN_5JisFh7XP8df1f01p6OAqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173335347540-9o0tt2locr2d7pup17jrbdmp3duqdi5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
